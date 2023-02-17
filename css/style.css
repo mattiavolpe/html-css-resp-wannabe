@@ -133,7 +133,22 @@ img {
     /* GIVING 100% WIDTH SINCE THERE'S PADDING THAT ALREADY ENSURES 20PX DISTANCE FROM THE EDGE OF THE SCREEN */
     .container {
         width: 100%;
-        margin: 0 auto;
-        padding: 0 20px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    .row {
+        display: block;
+    }
+
+    .lessons .col,
+    .steps .col,
+    .why-us .col {
+        width: 100%;
+    }
+
+    section .col:not(.col:last-of-type) {
+        margin-bottom: 3rem;
     }
 }
