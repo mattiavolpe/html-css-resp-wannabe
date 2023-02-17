@@ -127,3 +127,13 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
+
+@media screen and (max-width: 768px) {
+
+    /* GIVING 100% WIDTH SINCE THERE'S PADDING THAT ALREADY ENSURES 20PX DISTANCE FROM THE EDGE OF THE SCREEN */
+    .container {
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+}
