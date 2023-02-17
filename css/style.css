@@ -151,4 +151,15 @@ img {
     section .col:not(.col:last-of-type) {
         margin-bottom: 3rem;
     }
+
+    .steps {
+        margin-bottom:0;
+    }
+
+    .why-us {
+        background-color: #222222;
+        margin-bottom: 0;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
 }
